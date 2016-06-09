@@ -1,0 +1,8 @@
+- `ls`: lista los contenidos de un directorio
+  - `ls -l`: lista los archivos con datos de cada nodo, ordenados alfabéticamente
+  - `ls -lS`: lista los contenidos ordenados por tamaño
+  - `ls -lh`: lista los contenidos mostrando los datos legibles fácilmente (tamaño)
+  - `ls -r`: lista los archivos ordenados de forma inversa (sirve con las banderas `S` y `t`)
+- `rm [FILE]`: elimina un archivo
+- `rm -rf [DIRECTORY]`: elimina un directorio recursivamente **sin preguntar**
+- `tail`
