@@ -21,16 +21,15 @@ _Work in progress_
 - `ln -s [DIRECTORY] [NAME]`: crea un _link_ simbólico llamado NAME hacia DIRECTORY, NAME se comporatará como DIRECTORY
 - `tail`
 - `more`
-- `cat [nombre de archivo]`: permite visualizar el contenido de un archivo de texto
+- `cat [FILE]`: imprime todo el contenido de un archivo en pantalla
 - `clear`:limpia la terminal
 - `pwd`: imprime o muestra la ruta actual donde nos encontramos ubicados
 - `man [comando]`: muestra la documentacion de todos los comandos
-- `cat` [nombre de archivo]: permite visualizar el contenido de un archivo de texto
-- `mkdir` [nombre directorio]: crea un directorio en la ubicación actual
-- `mkdir` -p [ruta de directorios]: crea un árbol de directorios completo que no existe
+- `mkdir [DIRECTORY]`: crea un directorio en la ubicación actual
+- `mkdir -p [RUTA]`: crea un árbol de directorios completo que no existe
 - `cp` [archivo/directorio origen] [archivo/directorio destino]: copia un archivo o directorio desde un origen a un destino
-- `cp` -r [directorio origen] [directorio destino]: copia un directorio y todos sus directorios hijos de forma recursiva
-- `open  [ FILE | DIRECTORY ] ` Este comando puede abrir en el Finder la carpeta o archivos que le especifiquemos.
+- `cp -r` [directorio origen] [directorio destino]: copia un directorio y todos sus directorios hijos de forma recursiva
+- `open [-a APP] [ FILE | DIRECTORY ]`: abre el (archivo o directorio) con la aplicación por defecto en el sistema operativo, si se manda la bandera `-a` usará la APP para abrirlo
 
 ### Operadores para STDIN, STDOUT/STDERR
 `````
