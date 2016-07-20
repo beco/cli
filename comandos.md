@@ -30,7 +30,7 @@ _Work in progress_
 - `mkdir` -p [ruta de directorios]: crea un árbol de directorios completo que no existe
 - `cp` [archivo/directorio origen] [archivo/directorio destino]: copia un archivo o directorio desde un origen a un destino
 - `cp` -r [directorio origen] [directorio destino]: copia un directorio y todos sus directorios hijos de forma recursiva
-- `open [FILE] [DIRECTORY] ` Este comando puede abrir en el Finder la carpeta o archivos que le especifiquemos.
+- `open  [ FILE | DIRECTORY ] ` Este comando puede abrir en el Finder la carpeta o archivos que le especifiquemos.
 
 ### Operadores para STDIN, STDOUT/STDERR
 `````
