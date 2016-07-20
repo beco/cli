@@ -19,10 +19,18 @@ _Work in progress_
 - `cd [DIRECTORY]`: lleva el PROMPT a DIRECTORY
 - `touch [FILE]`: si FILE existe, modifica la hora de última modificación al momento de la ejecución del comando, si FILE no existe, lo crea
 - `ln -s [DIRECTORY] [NAME]`: crea un _link_ simbólico llamado NAME hacia DIRECTORY, NAME se comporatará como DIRECTORY
-- `man`
+- `man`: muestra la documentacion de todos los comandos
 - `tail`
 - `more`
-- `cat`
+- `cat` [nombre de archivo]: permite visualizar el contenido de un archivo de texto
+- `clear`:limpia la terminal
+- `pwd`: imprime o muestra la ruta actual donde nos encontramos ubicados
+- `man`: muestra la documentacion de todos los comandos
+- `cat` [nombre de archivo]: permite visualizar el contenido de un archivo de texto
+- `mkdir` [nombre directorio]: crea un directorio en la ubicación actual
+- `mkdir` -p [ruta de directorios]: crea un árbol de directorios completo que no existe
+- `cp` [archivo/directorio origen] [archivo/directorio destino]: copia un archivo o directorio desde un origen a un destino
+- `cp` -r [directorio origen] [directorio destino]: copia un directorio y todos sus directorios hijos de forma recursiva
 
 ### Operadores para STDIN, STDOUT/STDERR
 `````
