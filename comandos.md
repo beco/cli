@@ -19,13 +19,12 @@ _Work in progress_
 - `cd [DIRECTORY]`: lleva el PROMPT a DIRECTORY
 - `touch [FILE]`: si FILE existe, modifica la hora de última modificación al momento de la ejecución del comando, si FILE no existe, lo crea
 - `ln -s [DIRECTORY] [NAME]`: crea un _link_ simbólico llamado NAME hacia DIRECTORY, NAME se comporatará como DIRECTORY
-- `man`: muestra la documentacion de todos los comandos
 - `tail`
 - `more`
-- `cat` [nombre de archivo]: permite visualizar el contenido de un archivo de texto
+- `cat [nombre de archivo]`: permite visualizar el contenido de un archivo de texto
 - `clear`:limpia la terminal
 - `pwd`: imprime o muestra la ruta actual donde nos encontramos ubicados
-- `man`: muestra la documentacion de todos los comandos
+- `man [comando]`: muestra la documentacion de todos los comandos
 - `cat` [nombre de archivo]: permite visualizar el contenido de un archivo de texto
 - `mkdir` [nombre directorio]: crea un directorio en la ubicación actual
 - `mkdir` -p [ruta de directorios]: crea un árbol de directorios completo que no existe
