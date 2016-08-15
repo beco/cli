@@ -72,4 +72,13 @@ Manda al STDIN de `command_1` el contenido de FILE.
 1. `command > FILE` - manda el STDOUT a FILE
 1. `command 1> FILE 2>FILE_ERROR` - manda el STDOUT a FILE y el STDERR a FILE_ERROR
 1. `command > FILE 2>&1` - manda, tanto el STDOUT como el STDERR a FILE
-1.- `command >> FILE 2>&1` - manda a **concatenar** las salidas de STDOUT y STDERR a FILE,
+1. `command >> FILE 2>&1` - manda a **concatenar** las salidas de STDOUT y STDERR a FILE
+
+### Combinación de teclas como comandos
+1. `[ctrl]-C` - este comando **termina** el proceso que se esté ejecutando en la terminal, **haya o no acabado** de ejecutarse.
+2. `[ctrl]-D` - el sistema lo interpreta como _EOF_ (End Of File) y cierra el _stream_ de entrada (STDIN) para un archivo en donde se esté escribiendo desde la terminal.
+
+## Cómo salir de VI/VIM
+Ejecutar la siguiente combinación de teclas para 
+1. salir guardando los cambios: `[ESC] : w q ![ENTER] `
+2. salir sin guardar cambios: `[ESC] : q ! [ENTER]`
