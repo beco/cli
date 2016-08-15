@@ -80,5 +80,6 @@ Manda al STDIN de `command_1` el contenido de FILE.
 
 ## Cómo salir de VI/VIM
 Ejecutar la siguiente combinación de teclas para 
+
 1. salir guardando los cambios: `[ESC] : w q ![ENTER] `
 2. salir sin guardar cambios: `[ESC] : q ! [ENTER]`
