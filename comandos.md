@@ -13,7 +13,7 @@ _Work in progress_
   - `ls -lh`: lista los contenidos mostrando los datos legibles fácilmente (tamaño)
   - `ls -r`: lista los archivos ordenados de forma inversa (sirve con las banderas `S` y `t`)
   - `ls -a`: lista los contenidos de un directorio incluyendo los archivos ocultos
-- `tree` lista recursivamente la estructura de árbol de un directorio incluyendo tanto archivos como directorios
+- `tree` lista recursivamente la estructura de árbol de un directorio incluyendo tanto archivos como directorios (**NOTA:** No viene pre-instalado así que hay que instalarlo primero con su administrador de paquetes preferido: para RHEL/CentOS/Fedora `yum install tree` para Debian/Mint/Ubuntu `apt-get install tree`, para OS X `brew install tree`)
   - `tree -L 1`: muestra recursivamente la estructura de árbol de un directorio pero sólo hasta el primer subnivel de directorios
   - `tree -a`: muestra recursivamente la estructura de árbol de un directorio incluyendo tanto archivos como directorio ocultos
   - `tree -d`: muestra recursivamente la estructura de árbol de un directorio tomando en cuenta sólo los directorios
