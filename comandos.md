@@ -82,7 +82,7 @@ Manda al STDIN de `command_1` el contenido de FILE.
 Ejecutar la siguiente combinación de teclas para 
 
 1. salir guardando los cambios: `[ESC] : w q ![ENTER] `
-2. salir sin guardar cambios: `[SHIFT] : q ! [ENTER]`
+2. salir sin guardar cambios: `[ESC] : q ! [ENTER]`
 
 ## Moverse un espacio a la derecha
 `tecla l`
