@@ -94,7 +94,7 @@ Ejecutar la siguiente combinación de teclas para
 `dd`
 
 ## Borrar carácter
-`telca x`
+`tecla x`
 
 ## Pegar linea
 `[SHIFT] + p`
