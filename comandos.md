@@ -77,30 +77,31 @@ Manda al STDIN de `command_1` el contenido de FILE.
 ### Combinación de teclas como comandos
 1. `[ctrl]-C` - este comando **termina** el proceso que se esté ejecutando en la terminal, **haya o no acabado** de ejecutarse.
 2. `[ctrl]-D` - el sistema lo interpreta como _EOF_ (End Of File) y cierra el _stream_ de entrada (STDIN) para un archivo en donde se esté escribiendo desde la terminal.
-### Editor VI
-## Cómo salir de VI/VIM
-Ejecutar la siguiente combinación de teclas para 
+
+## Editor VI
+### Cómo salir de VI/VIM
+Ejecutar la siguiente combinación de teclas para
 
 1. salir guardando los cambios: `[ESC] : w q ![ENTER] `
 2. salir sin guardar cambios: `[ESC] : q ! [ENTER]`
 
-## Moverse un espacio a la derecha
+### Moverse un espacio a la derecha
 `tecla l`
 
-## Copiar linea
+### Copiar linea
 `yy`
 
-## Borrar linea
+### Borrar linea
 `dd`
 
-## Borrar carácter
+### Borrar carácter
 `tecla x`
 
-## Pegar linea
+### Pegar linea
 `[SHIFT] + p`
 
-## Insertar Texto
+### Insertar Texto
 `tecla i`
 
-## Pegar portapapeles
+### Pegar portapapeles
 `[SHIFT] + Insert`
